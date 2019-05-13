@@ -49,7 +49,6 @@ import {registerLocaleData} from '@angular/common';
 import localeZhHans from '@angular/common/locales/zh-Hans';
 import {MockComponent} from './admin-console/mock/mock.component';
 // tslint:disable-next-line:max-line-length
-import {TeacherDetailComponent} from './teacher-detail/teacher-detail.component';
 import {ExamManagementComponent} from './teacher-home/exam-management/exam-management.component';
 import {ExamDetailComponent} from './teacher-home/exam-management/exam-detail/exam-detail.component';
 import {AddExamComponent} from './teacher-home/exam-management/add-exam/add-exam.component';
@@ -83,7 +82,6 @@ registerLocaleData(localeZhHans);
     ExamManagementComponent,
     ExamDetailComponent,
     AddExamComponent,
-    TeacherDetailComponent,
   ],
   imports: [
     BrowserModule,

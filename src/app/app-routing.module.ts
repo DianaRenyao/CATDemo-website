@@ -9,7 +9,6 @@ import {TeacherHomeComponent} from './teacher-home/teacher-home.component';
 import {teacherHomeChildRoutes} from './teacher-home/teacher-home-routing.module';
 import {adminConsoleChildRoutes} from './admin-console/admin-console-routing.module';
 import {studentHomeChildRoutes} from './student-home/student-home-routing.module';
-import {TeacherDetailComponent} from './teacher-detail/teacher-detail.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -19,7 +18,6 @@ const routes: Routes = [
   { path: 'admin-console', component: AdminConsoleComponent, children: adminConsoleChildRoutes },
   { path: 'teacher-home', component: TeacherHomeComponent, children: teacherHomeChildRoutes },
   { path: 'student-home', component: StudentHomeComponent, children: studentHomeChildRoutes },
-  { path: 'teacher/:username', component: TeacherDetailComponent },
 ];
 
 @NgModule({
