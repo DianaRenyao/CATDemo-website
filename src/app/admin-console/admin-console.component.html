@@ -1,0 +1,15 @@
+<div class="main-aside-container">
+  <div class="main-container">
+    <router-outlet></router-outlet>
+  </div>
+  <div class="aside-container">
+    <nav>
+      <button class="nav-button" mat-button routerLink="./teacher-management">教师管理</button>
+    </nav>
+    <nav>
+      <button class="nav-button" mat-button routerLink="./mock">示例数据管理</button>
+    </nav>
+    <mat-divider></mat-divider>
+    <app-logout></app-logout>
+  </div>
+</div>
